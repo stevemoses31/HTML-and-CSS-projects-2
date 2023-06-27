@@ -155,11 +155,11 @@ section {
    -moz-background-size: cover;
    -o-background-size: cover; 
    background-size: cover; 
-   width: 100px;
+   width: 100%;
    display: block; 
    height: auto; 
    padding-top: 350px; /* This is spacer before the Main title logo */ 
-   padding-bottom: 350px /* This is spacer after the Main title logo */;
+   padding-bottom: 500px; /* This is spacer after the Main title logo */
    color: #fff; 
 } 
 
@@ -208,7 +208,7 @@ section {
 }
 
 #contact { 
-  Background-color: #f5f3f3; 
+  background-color: #f5f3f3; 
 } 
 
 .reservation { 
@@ -225,7 +225,8 @@ section {
   text-align: center; 
   margin: 0 auto; 
   color: #13161B; 
-  font-size: 1.5cm; 
+  font-weight: 500;
+  font-size: 1.3cm; 
   font-variant: small-caps; 
   letter-spacing: .4pt; 
   word-spacing: .3pt; 
@@ -238,7 +239,7 @@ section {
   color: #13161B; 
   font-weight: 900; 
   font-size: 1.5cm; 
-  font-variant: small cpas; 
+  font-variant: small-caps; 
   letter-spacing: .4pt; 
   word-spacing: .3pt; 
 } 
@@ -274,7 +275,7 @@ section {
   border-top: 1px solid #090b0D; 
   border-right: 2px solid #424549; 
   border-left: 1px solid #090B0D; 
-  margin: 10px lem; 
+  margin: 10px 1cm; 
   border-radius: 7px; 
   background: #13161B; 
   box-shadow: inset 0px 3px 0px 0px rbga(5,5,5, 0.15);
@@ -298,6 +299,9 @@ padding: 30px 39px;
   cursor: pointer; 
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
+  position: relative;
+  display: inline;
+  float: right;
 }
 
 .terms hover { 
@@ -305,7 +309,7 @@ padding: 30px 39px;
   text-decoration: underline; 
 } 
 
-.submit input[type='text'] { 
+.submit input[type="submit"] { 
   color: rgb(225,225,225); 
   cursor: pointer; 
   border: none; 
