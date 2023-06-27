@@ -9,9 +9,10 @@ html {
      Font-size: 62.5%;
      -webkit-tap-highlight-color: rgba(0,0,0,0);
      -webkit-text-size-adjust: 100%; 
+     -ms-text-size-adjust: 100%;
 }
 
-Body {
+body {
    font-size: 14px;
    margin: 0; 
    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -26,7 +27,7 @@ nav {
 }
 
 h1, h2, h3, h4, h5, h6 { 
-    Font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 } 
 
 h1 { 
@@ -41,7 +42,7 @@ h1 {
 
 h1 after { /* This is the underline */ 
     display: block; 
-    content: "**";
+    content: "";
     height: 2px;
     width: 150px; 
     background: #E91C1C; 
@@ -93,12 +94,26 @@ section {
    display: block;
 }
 
+.container { 
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid { 
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .row { 
     margin-right: -15px; 
     margin-left:-15px; 
 } 
    
-.clearfix:after, 
+.clearfix:after,
 .container:after, 
 .navbar:after { 
    clear: both; 
@@ -119,7 +134,7 @@ section {
 
 .menu-container {
    max-height: 340px; 
-   margin: 0%; 
+   margin: 0% auto;
    content: " "; 
    /* top: 0: 
    left: 0; */ 
@@ -127,14 +142,14 @@ section {
    width: 100%; 
    position: fixed; 
    z-index: 100; 
-   /*background-color: rgba(255, 255, 255, 0.5):*/ 
+   /*background-color: rgba(255, 255, 255, 0.5);*/ 
 } 
 
 /*=======================================
   HOME SECTION STYLES
 ========================================*/ 
 #home { 
-   background: url(../planets.jpg) no-repeat 50% 50%; 
+   background: url(../Thumb/thumbnail_5.png) no-repeat 50% 50%; 
    background-attachment: fixed; 
    -webkit-background-size: cover; 
    -moz-background-size: cover;
