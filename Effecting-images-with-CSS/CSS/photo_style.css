@@ -43,7 +43,7 @@ p {
    left: 0; 
    padding-left: 20px;
    padding-right: 20px;
-   justifying-content: center: /* For centering test inside .photo */
+   justify-content:  center /* For centering test inside .photo */;
    align-items: center;
    background: rgba(0,0,0,0.5)
 }
@@ -55,7 +55,7 @@ p {
    padding-bottom: 20px;
 }
 
-*/ ===================================
+/*====================================
   PHOTO OVERLAY TRANSITIONS 
 ====================================*/
 
